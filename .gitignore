@@ -1,0 +1,38 @@
+# Ignore all content in chest_xray
+data/chest_xray/**
+
+# Keep the structure: train, val, and test directories
+!data/chest_xray/train/
+!data/chest_xray/val/
+!data/chest_xray/test/
+
+# Keep subdirectories NORMAL and PNEUMONIA inside each folder
+!data/chest_xray/train/NORMAL/
+!data/chest_xray/train/PNEUMONIA/
+!data/chest_xray/val/NORMAL/
+!data/chest_xray/val/PNEUMONIA/
+!data/chest_xray/test/NORMAL/
+!data/chest_xray/test/PNEUMONIA/
+
+# Ignore all images inside these subdirectories
+data/chest_xray/train/NORMAL/*
+data/chest_xray/train/PNEUMONIA/*
+data/chest_xray/val/NORMAL/*
+data/chest_xray/val/PNEUMONIA/*
+data/chest_xray/test/NORMAL/*
+data/chest_xray/test/PNEUMONIA/*
+
+# Allow .keep files to preserve empty folders
+!data/chest_xray/train/NORMAL/.keep
+!data/chest_xray/train/PNEUMONIA/.keep
+!data/chest_xray/val/NORMAL/.keep
+!data/chest_xray/val/PNEUMONIA/.keep
+!data/chest_xray/test/NORMAL/.keep
+!data/chest_xray/test/PNEUMONIA/.keep
+
+# Other ignored files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+xray_env/
