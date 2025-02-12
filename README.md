@@ -32,12 +32,13 @@ x-ray-pneuomnia-diagnosis/
 ```
 
 ## 📖 Table of Contents
-1. [Dataset and Preprocessing](#dataset-and-preprocessing)
-2. [ResNet18 Architecture](#resnet18-architecture)
-3. [Training and Evaluation](#training-and-evaluation)
-4. [Results and Metrics](#results-and-metrics)
-5. [How to Run the Project](#how-to-run-the-project)
-6. [References](#references)
+1. [Dataset and Preprocessing](#-dataset-and-preprocessing)
+2. [ResNet18 Architecture](#-resnet18-architecture)
+3. [Training and Evaluation](#-training-and-evaluation)
+4. [Results and Metrics](#-results-and-metrics)
+5. [How to Run the Project](#-how-to-run-the-project)
+6. [References](#-references)
+7. [Contact](#-contact)
 
 ---
 
